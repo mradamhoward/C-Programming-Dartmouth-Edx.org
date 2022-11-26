@@ -273,7 +273,7 @@ void multidimensional_arrays(){
 
      * arrays[1] = 3;
     arrays[1][0] = 0;
-    
+
      * (arrays[1] + 1) = 4;
      arrays[1][1] = 0;
 }
@@ -302,11 +302,27 @@ void course_4(){
 
 }
 
+void sandbox(){
+    struct person
+    {
+        char* name;
+        double height;
+        int age;
+    };
+
+    struct person adam;
+    adam.age = 26;
+    adam.height = 1.75;
+    adam.name = "Adam";
+    
+}   
+
  int main(){
-    //course_1();
-    //course_2();
-    //course_3();
+    course_1();
+    course_2();
+    course_3();
     course_4();
+    sandbox();
     return 0; 
  }
  
